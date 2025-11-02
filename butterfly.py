@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-"""
-Animated Lorenz Attractor Visualization
-Developed by Prof. Shahab Anbarjafari - 3S Holding OÜ
-
-This script creates a beautiful animated visualization of the Lorenz Attractor,
-a famous example of deterministic chaos that exhibits the butterfly effect.
-The system never repeats its exact trajectory but remains bounded in a
-strange attractor that resembles a butterfly.
-
-The Lorenz equations:
-dx/dt = σ(y - x)
-dy/dt = x(ρ - z) - y  
-dz/dt = xy - βz
-
-Where σ = 10, ρ = 28, β = 8/3 (classic parameters for chaotic behavior)
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -225,4 +207,5 @@ def main():
 
 if __name__ == "__main__":
     # Run the animation
+
     anim = main()
